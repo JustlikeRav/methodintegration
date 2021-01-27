@@ -1,3 +1,10 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<div class="jumbotron text-center">
+  <h1 class="display-3">Thank You!</h1>
+  <p class="lead"><strong>Form submitted successfully.</strong> Avenview team will contact you soon.</p>
+  <hr>
+  <p><button class="w3-button w3-red" onclick="location.href='https://avenview.com';">Return To Home Page</button></p>
+</div>
 <?php 
 
 $dataTable = "<table>";
@@ -15,7 +22,7 @@ $dataTable = "<table>";
 $dataTable = $dataTable."</table>";
 
 $to      = 'ravneet@avenview.com';
-$subject = 'Form Submission '.$_POST['formName'];
+$subject = 'Form Submission: '.$_POST['formName'];
 $message = $dataTable;
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
