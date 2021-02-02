@@ -21,7 +21,7 @@ $dataTable = "<table>";
 
 $dataTable = $dataTable."</table>";
 
-$to      = 'ravneet@avenview.com';
+$to      = 'sales@avenview.com';
 $subject = 'Form Submission: '.$_POST['formName'];
 $message = $dataTable;
 $headers = "MIME-Version: 1.0" . "\r\n";
