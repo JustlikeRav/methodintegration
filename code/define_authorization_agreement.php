@@ -123,7 +123,7 @@ function FillBilling(f) {
   }
 }
 </script>
-<form action="https://www.methodintegration.com/method/timezonerouter.aspx?url=https://www.methodintegration.com/MethodWebForms/submit.aspx" id="authForm" method="POST" onsubmit="return validate_form(this)"><input name="oid" type="hidden" value="Phvh0K4bR3WGRk1IGAx9KEpmPD3UlMyFu8m2g/PQ49U=" /> <input name="retURL" type="hidden" value="http://www.avenview.com/index.php?main_page=authorization_agreement_success" /> <input name="formName" type="hidden" value="Avenview Authorized Agreement" />
+<form action="https://www.avenview.com/formsubmissions/formreceiver.php" id="authForm" method="POST" onsubmit="return validate_form(this)"><input name="oid" type="hidden" value="Phvh0K4bR3WGRk1IGAx9KEpmPD3UlMyFu8m2g/PQ49U=" /> <input name="retURL" type="hidden" value="http://www.avenview.com/index.php?main_page=authorization_agreement_success" /> <input name="formName" type="hidden" value="Avenview Authorized Agreement" />
 <p>Avenview is delighted to welcome new partners to our worldwide family of dealers, distributors and retailers. In order to insure our products are properly promoted, installed and supported, Avenview has developed this Authorized Agreement to better understand our customers. Avenview reserves the right to amend and modify this Agreements at any time without further notice.</p>
 
 <p>Please provide the following information:</p>
